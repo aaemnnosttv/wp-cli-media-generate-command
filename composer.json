@@ -1,0 +1,27 @@
+{
+    "name": "aaemnnosttv/wp-cli-media-generate-command",
+    "description": "",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/aaemnnosttv/wp-cli-media-generate-command",
+    "license": "MIT",
+    "authors": [],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "WP_CLI_MediaGenerate\\": "src"
+        },
+        "files": [ "command.php" ]
+    },
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "wp-cli/wp-cli": "^1.0.0"
+    },
+    "require-dev": {
+        "behat/behat": "~2.5",
+        "johnpbloch/wordpress-core": "^4.8"
+    },
+    "scripts": {
+        "run-behat": "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi"
+    }
+}
