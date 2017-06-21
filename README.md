@@ -9,7 +9,24 @@ Quick links: [Using](#using) | [Installing](#installing) | [Contributing](#contr
 
 ## Using
 
+~~~
+wp media generate image <count> [<dimensions>] [--ext=<extension>]
+~~~
 
+	<count>
+		Number of images to generate.
+
+	[<dimensions>]
+		Image dimensions in LxW format.
+		---
+		default: 50x50
+		---
+
+	[--ext=<extension>]
+		File extension to generate images with.
+		---
+		default: jpg
+		---
 
 ## Installing
 

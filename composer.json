@@ -22,6 +22,12 @@
         "johnpbloch/wordpress-core": "^4.8"
     },
     "scripts": {
-        "run-behat": "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi"
+        "run-behat": "WP_CLI_BIN_DIR=$PWD/vendor/bin vendor/bin/behat --ansi",
+        "update-readme": "wp scaffold package-readme $PWD --force"
+    },
+    "extra": {
+        "commands": [
+            "media generate image"
+        ]
     }
 }
