@@ -35,7 +35,7 @@ before_install:
   - composer validate
 
 install:
-  - pecl install imagick
+  - printf "\n" | pecl install imagick
   - composer install
   - bash bin/install-package-tests.sh
 
