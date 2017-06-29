@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4be15b1db08b5fbe47f1045624e37016",
+    "content-hash": "aa2bea729af02e5b4b52bad136a0c781",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2438,16 +2438,16 @@
         },
         {
             "name": "wp-cli/search-replace-command",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/search-replace-command.git",
-                "reference": "8db332d052dc24c955f582ba4dce5f5f7064d7e8"
+                "reference": "bb99b41e3b908f4256c8b7918118a96bb80c1bd6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/search-replace-command/zipball/8db332d052dc24c955f582ba4dce5f5f7064d7e8",
-                "reference": "8db332d052dc24c955f582ba4dce5f5f7064d7e8",
+                "url": "https://api.github.com/repos/wp-cli/search-replace-command/zipball/bb99b41e3b908f4256c8b7918118a96bb80c1bd6",
+                "reference": "bb99b41e3b908f4256c8b7918118a96bb80c1bd6",
                 "shasum": ""
             },
             "require": {
@@ -2488,7 +2488,7 @@
             ],
             "description": "Search/replace strings in the database.",
             "homepage": "https://github.com/wp-cli/search-replace-command",
-            "time": "2017-05-30T19:40:57+00:00"
+            "time": "2017-06-28T19:27:14+00:00"
         },
         {
             "name": "wp-cli/server-command",
