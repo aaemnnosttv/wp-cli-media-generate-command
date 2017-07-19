@@ -20,7 +20,7 @@ wp media generate image [--count=<number>] [--size=<size>] [--ext=<extension>] [
 		---
 
 	[--size=<size>]
-		Image dimensions in LxW format.
+		Image dimensions in WxH (width by height) format.
 		---
 		default: 50x50
 		---
