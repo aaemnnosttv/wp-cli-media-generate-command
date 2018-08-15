@@ -1,6 +1,6 @@
 {
     "name": "aaemnnosttv/wp-cli-media-generate-command",
-    "description": "",
+    "description": "Generate media (attachments + files) using WP-CLI",
     "type": "wp-cli-package",
     "homepage": "https://github.com/aaemnnosttv/wp-cli-media-generate-command",
     "license": "MIT",

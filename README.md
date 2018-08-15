@@ -1,7 +1,7 @@
 aaemnnosttv/wp-cli-media-generate-command
 =========================================
 
-
+Generate media (attachments + files) using WP-CLI
 
 [![Build Status](https://travis-ci.org/aaemnnosttv/wp-cli-media-generate-command.svg?branch=master)](https://travis-ci.org/aaemnnosttv/wp-cli-media-generate-command)
 
