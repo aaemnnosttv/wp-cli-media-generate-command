@@ -14,7 +14,7 @@
         "files": [ "command.php" ]
     },
     "require": {
-        "php": ">=5.5",
+        "php": ">=5.6",
         "wp-cli/wp-cli": ">=1.0"
     },
     "require-dev": {
@@ -30,5 +30,10 @@
         "commands": [
             "media generate image"
         ]
+    },
+    "config": {
+        "platform": {
+            "php": "5.6.31"
+        }
     }
 }
