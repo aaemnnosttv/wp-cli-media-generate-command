@@ -1,6 +1,11 @@
-sudo: false
+branches:
+  only:
+    - master
 
 language: php
+
+services:
+  - mysql
 
 notifications:
   email:
@@ -19,9 +24,7 @@ env:
 
 matrix:
   include:
-    - php: 7.1
-      env: WP_VERSION=latest
-    - php: 7.0
+    - php: 7.4
       env: WP_VERSION=latest
     - php: 5.6
       env: WP_VERSION=latest
